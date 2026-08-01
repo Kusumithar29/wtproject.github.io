@@ -1,0 +1,907 @@
+{
+  "User": [
+    {
+      "_id": "7ace71fae2091ebbd167784f",
+      "username": "superadmin",
+      "name": "Arjun Sharma",
+      "email": "admin@vastusetu.com",
+      "personalEmail": "arjun.sharma@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiOY91W4IOY48.gMNvnBlgvWVK1hA9NzDO",
+      "plainPassword": "ADM123456",
+      "role": "admin",
+      "phone": "9876543210",
+      "gender": "Male",
+      "dob": "1985-04-12",
+      "occupation": "System Administrator",
+      "aadhaarNumber": "XXXX-XXXX-4589",
+      "profileImage": "uploads/profiles/admin.jpg",
+      "flatNumber": null,
+      "address": {
+        "street": "MG Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001"
+      },
+      "emergencyContact": {
+        "name": "Priya Sharma",
+        "relation": "Spouse",
+        "phone": "9988776655"
+      },
+      "status": "active",
+      "createdAt": 1779704461746
+    },
+    {
+      "_id": "5cb5dfc29594b8b04d415055",
+      "username": "ravikumar",
+      "name": "Ravi Kumar",
+      "email": "manager@vastusetu.com",
+      "personalEmail": "ravikumar@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiOobV9gskA7l.ubKDsD6sUeBplO2vfWoi",
+      "plainPassword": "MNG123456",
+      "role": "manager",
+      "phone": "8765432109",
+      "gender": "Male",
+      "dob": "1990-08-21",
+      "occupation": "Apartment Manager",
+      "aadhaarNumber": "XXXX-XXXX-7812",
+      "profileImage": "uploads/profiles/manager.jpg",
+      "flatNumber": null,
+      "address": {
+        "street": "Whitefield",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560066"
+      },
+      "emergencyContact": {
+        "name": "Suresh Kumar",
+        "relation": "Brother",
+        "phone": "8877665544"
+      },
+      "status": "active",
+      "createdAt": 1779704462042
+    },
+    {
+      "_id": "a659b4f8612d91387e048608",
+      "username": "owner101",
+      "name": "MeeraReddy",
+      "email": "owner101@vastusetu.com",
+      "personalEmail": "meerareddy@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiO2/k36Zihbcj7kAcka98iW/4Cjf3viRC",
+      "plainPassword": "OWN101101",
+      "role": "owner",
+      "phone": "7654321098",
+      "gender": "Female",
+      "dob": "1988-01-15",
+      "occupation": "Software Engineer",
+      "aadhaarNumber": "XXXX-XXXX-9021",
+      "profileImage": "uploads/profiles/owner101.jpg",
+      "flatNumber": "101",
+      "address": {
+        "street": "Marathahalli",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560037"
+      },
+      "emergencyContact": {
+        "name": "Raghav Reddy",
+        "relation": "Husband",
+        "phone": "7766554433"
+      },
+      "status": "active",
+      "createdAt": 1779704462371
+    },
+    {
+      "_id": "4f12e907425f8a62673ac653",
+      "username": "owner102",
+      "name": "Sanjay Verma",
+      "email": "owner102@vastusetu.com",
+      "personalEmail": "sanjayverma@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiOpGxxegUlUZxFTXnLJv1Zrd.ZMOdh1XW",
+      "plainPassword": "OWN102102",
+      "role": "owner",
+      "phone": "6543210987",
+      "gender": "Male",
+      "dob": "1982-11-10",
+      "occupation": "Businessman",
+      "aadhaarNumber": "XXXX-XXXX-3412",
+      "profileImage": "uploads/profiles/owner102.jpg",
+      "flatNumber": "102",
+      "address": {
+        "street": "Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560038"
+      },
+      "emergencyContact": {
+        "name": "Kavita Verma",
+        "relation": "Wife",
+        "phone": "6655443322"
+      },
+      "status": "active",
+      "createdAt": 1779704462776
+    },
+    {
+      "_id": "436eb7711891c19842116a0a",
+      "username": "owner103",
+      "name": "AnithaRao",
+      "email": "owner103@vastusetu.com",
+      "personalEmail": "anitharao@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiO/mFsvxUjamEyVgD20QT2d.am1YFkZGa",
+      "plainPassword": "OWN103103",
+      "role": "owner",
+      "phone": "5432109876",
+      "gender": "Female",
+      "dob": "1991-06-18",
+      "occupation": "Doctor",
+      "aadhaarNumber": "XXXX-XXXX-7755",
+      "profileImage": "uploads/profiles/owner103.jpg",
+      "flatNumber": null,
+      "address": {
+        "street": "HSR Layout",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560102"
+      },
+      "emergencyContact": {
+        "name": "Vijay Rao",
+        "relation": "Father",
+        "phone": "9988112233"
+      },
+      "status": "active",
+      "createdAt": 1779704463135
+    },
+    {
+      "_id": "bebed8288cfe87bc71e37092",
+      "username": "tenant101",
+      "name": "Kiran Patel",
+      "email": "tenant101@vastusetu.com",
+      "personalEmail": "kiranpatel@gmail.com",
+      "password": "$2a$12$vkQNFZWpwnI6rsWI1MQJiOR.bIope/1oe64Ew8u0a/DjjxyXfuki.",
+      "plainPassword": "TEN101101",
+      "role": "tenant",
+      "phone": "4321098765",
+      "gender": "Male",
+      "dob": "1997-03-09",
+      "occupation": "Data Analyst",
+      "aadhaarNumber": "XXXX-XXXX-6621",
+      "profileImage": "uploads/profiles/tenant101.jpg",
+      "flatNumber": "101",
+      "address": {
+        "street": "Bellandur",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560103"
+      },
+      "emergencyContact": {
+        "name": "Rina Patel",
+        "relation": "Mother",
+        "phone": "8877001122"
+      },
+      "status": "active",
+      "createdAt": 1779704463478
+    },
+    {
+      "name": "namitharonad",
+      "email": "namitha@gmail.com",
+      "password": "$2a$12$/lAL6juTE.cgFIh6D1lUj.xGoJML1iH5dxRTzIcVsAsPUn71h90Z.",
+      "plainPassword": "TEN104104",
+      "role": "tenant",
+      "flatNumber": null,
+      "phone": "9874563219",
+      "username": "",
+      "personalEmail": "",
+      "gender": "",
+      "dob": "",
+      "occupation": "",
+      "aadhaarNumber": "",
+      "profileImage": "",
+      "address": {},
+      "emergencyContact": {},
+      "status": "active",
+      "createdAt": 1779705208151,
+      "_id": "8472e9e4cfdfe66cef5e3fee"
+    },
+    {
+      "name": "ShaktiDesai",
+      "email": "shakti@gmail.com",
+      "password": "$2a$12$xhwiHHZnOm.CXxs1rBRMZeiSumeJ2FtqM3FIOw3Ry0WOcE/LWvbEa",
+      "plainPassword": "OWN104104",
+      "role": "owner",
+      "flatNumber": null,
+      "phone": "7418523698",
+      "username": "",
+      "personalEmail": "",
+      "gender": "",
+      "dob": "",
+      "occupation": "",
+      "aadhaarNumber": "",
+      "profileImage": "",
+      "address": {},
+      "emergencyContact": {},
+      "status": "active",
+      "createdAt": 1780719271177,
+      "_id": "898b5dc620bf1ae7ee46f5da"
+    },
+    {
+      "name": "kusumitharonad",
+      "email": "tenant106@vastusetu.com",
+      "password": "$2a$12$oIWVyJPjWwg4sQ7f8QlpPOOpWe7WLdSh5nfoi7l5jP8EP8OWhj9MS",
+      "plainPassword": "TEN106106",
+      "role": "tenant",
+      "flatNumber": "106",
+      "phone": "7418529639",
+      "username": "",
+      "personalEmail": "",
+      "gender": "",
+      "dob": "",
+      "occupation": "",
+      "aadhaarNumber": "",
+      "profileImage": "",
+      "address": {},
+      "emergencyContact": {},
+      "status": "active",
+      "createdAt": 1780728463365,
+      "_id": "a85d8bcaea8d75f981bf985f"
+    },
+    {
+      "name": "Riya",
+      "email": "tenant201@vastusetu.com",
+      "password": "$2a$12$ZJyu0wqXNPPWGuPvHDpYfeRsnzXyTxN32sBiBvAjUrCTy/ncBUBP2",
+      "plainPassword": "TEN201201",
+      "role": "tenant",
+      "flatNumber": "201",
+      "phone": "9874563219",
+      "username": "",
+      "personalEmail": "",
+      "gender": "",
+      "dob": "",
+      "occupation": "",
+      "aadhaarNumber": "",
+      "profileImage": "",
+      "address": {},
+      "emergencyContact": {},
+      "status": "active",
+      "createdAt": 1780735678172,
+      "_id": "d6a052c270ba79209e13c418"
+    },
+    {
+      "name": "adityasingh",
+      "email": "owner107@vastusetu.com",
+      "password": "$2a$12$Cp/rrlKHj/mFklvZG5z0vOXfkLkrdS97pMCC3ridnsvckK3vpwnLe",
+      "plainPassword": "OWN107107",
+      "role": "owner",
+      "flatNumber": "107",
+      "phone": "8542136987",
+      "username": "",
+      "personalEmail": "",
+      "gender": "",
+      "dob": "",
+      "occupation": "",
+      "aadhaarNumber": "",
+      "profileImage": "",
+      "address": {},
+      "emergencyContact": {},
+      "status": "active",
+      "createdAt": 1780895358658,
+      "_id": "82d84c3460743e64be588dc2"
+    }
+  ],
+  "Flat": [
+    {
+      "_id": "a801cb3489bc3cfa4b1c71c1",
+      "flatNumber": "101",
+      "floor": 1,
+      "ownerUserId": "a659b4f8612d91387e048608",
+      "tenantUserId": "bebed8288cfe87bc71e37092",
+      "area": 1200,
+      "monthlyRent": 15000,
+      "occupancyMode": "rented",
+      "status": "occupied",
+      "leaseStart": "2026-05-25T10:21:03.836Z",
+      "leaseEnd": "2027-05-25T10:21:03.836Z",
+      "createdAt": "2026-05-25T10:21:03.839Z"
+    },
+    {
+      "_id": "5a6ba24ff396aa16eefc8935",
+      "flatNumber": "102",
+      "floor": 1,
+      "ownerUserId": "4f12e907425f8a62673ac653",
+      "tenantUserId": null,
+      "area": 1200,
+      "monthlyRent": 15000,
+      "occupancyMode": "self_occupied",
+      "status": "occupied",
+      "leaseStart": null,
+      "leaseEnd": null,
+      "createdAt": "2026-05-25T10:21:03.860Z"
+    },
+    {
+      "_id": "1e27bd9169d39cd3223f3845",
+      "flatNumber": "103",
+      "floor": 2,
+      "ownerUserId": "436eb7711891c19842116a0a",
+      "tenantUserId": null,
+      "area": 1400,
+      "monthlyRent": 18000,
+      "occupancyMode": "vacant",
+      "status": "vacant",
+      "leaseStart": null,
+      "leaseEnd": null,
+      "createdAt": "2026-05-25T10:21:03.868Z"
+    },
+    {
+      "_id": "b2c4e8f01a3d5e7f9b1c2d04",
+      "flatNumber": "104",
+      "floor": 2,
+      "ownerUserId": "436eb7711891c19842116a0a",
+      "tenantUserId": null,
+      "area": 1100,
+      "monthlyRent": 14000,
+      "occupancyMode": "vacant",
+      "status": "vacant",
+      "leaseStart": null,
+      "leaseEnd": null,
+      "createdAt": "2026-05-25T10:21:03.884Z"
+    },
+    {
+      "_id": "c3d5f9a12b4c6e8d0f2a4b51",
+      "flatNumber": "105",
+      "floor": 2,
+      "ownerUserId": null,
+      "tenantUserId": null,
+      "area": 1150,
+      "monthlyRent": 16000,
+      "occupancyMode": "vacant",
+      "status": "vacant",
+      "leaseStart": "2026-05-25T10:21:03.836Z",
+      "leaseEnd": "2027-05-25T10:21:03.836Z",
+      "createdAt": "2026-05-25T10:21:03.888Z"
+    },
+    {
+      "flatNumber": "106",
+      "floor": 2,
+      "area": 1210,
+      "monthlyRent": 15600,
+      "occupancyMode": "tenant_lease",
+      "status": "occupied",
+      "ownerUserId": null,
+      "tenantUserId": "a85d8bcaea8d75f981bf985f",
+      "leaseStart": null,
+      "leaseEnd": null,
+      "_id": "304e7a3c9894908b67462152",
+      "createdAt": "2026-05-25T10:32:13.562Z"
+    },
+    {
+      "flatNumber": "107",
+      "floor": 1,
+      "area": 1520,
+      "monthlyRent": 14000,
+      "occupancyMode": "self_occupied",
+      "status": "occupied",
+      "ownerUserId": "82d84c3460743e64be588dc2",
+      "tenantUserId": null,
+      "leaseStart": null,
+      "leaseEnd": null,
+      "_id": "5754494e92712386924f9ccb",
+      "createdAt": "2026-06-06T04:21:03.196Z"
+    },
+    {
+      "flatNumber": "204",
+      "floor": 2,
+      "area": 1200,
+      "monthlyRent": 11998,
+      "occupancyMode": "vacant",
+      "status": "vacant",
+      "ownerUserId": null,
+      "tenantUserId": null,
+      "leaseStart": null,
+      "leaseEnd": null,
+      "_id": "e9193301d81391dd98c05ab9",
+      "createdAt": "2026-06-08T05:09:40.986Z"
+    },
+    {
+      "flatNumber": "201",
+      "floor": 2,
+      "area": 1500,
+      "monthlyRent": 18500,
+      "occupancyMode": "vacant",
+      "status": "vacant",
+      "ownerUserId": null,
+      "tenantUserId": null,
+      "leaseStart": null,
+      "leaseEnd": null,
+      "_id": "61af5b2bf9fab25ef112bf07",
+      "createdAt": "2026-06-08T06:04:16.127Z"
+    }
+  ],
+  "Complaint": [
+    {
+      "title": "Leaking Tap",
+      "description": "Kitchen faucet leaking — Kiran Patel (flat 101).",
+      "raisedBy": "bebed8288cfe87bc71e37092",
+      "raisedByRole": "tenant",
+      "flatNumber": "101",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "status": "open",
+      "category": "plumbing",
+      "attachments": [],
+      "managerNote": "",
+      "_id": "225bce338ffc8d9d5ff9fd8b",
+      "createdAt": "2026-05-25T10:21:03.899Z"
+    },
+    {
+      "title": "Corridor Lights",
+      "description": "Sanjay Verma reporting flickering lights near flat 102.",
+      "raisedBy": "4f12e907425f8a62673ac653",
+      "raisedByRole": "owner",
+      "flatNumber": "102",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "status": "resolved",
+      "category": "electrical",
+      "managerNote": "Electrician scheduled.",
+      "attachments": [],
+      "_id": "19be7336289d4d03e44a1618",
+      "createdAt": "2026-05-25T10:21:03.909Z"
+    },
+    {
+      "title": "gdfgdf",
+      "description": "vffdff",
+      "category": "plumbing",
+      "raisedBy": "a659b4f8612d91387e048608",
+      "raisedByRole": "owner",
+      "flatNumber": "101",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "attachments": [],
+      "status": "resolved",
+      "managerNote": "",
+      "_id": "b6c60e1e9dd0c8e6cb4e821c",
+      "createdAt": "2026-06-06T05:20:05.393Z"
+    },
+    {
+      "title": "ABC",
+      "description": "abcde...",
+      "category": "plumbing",
+      "raisedBy": "a659b4f8612d91387e048608",
+      "raisedByRole": "owner",
+      "flatNumber": "101",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "attachments": [],
+      "status": "open",
+      "managerNote": "",
+      "_id": "0d74685e2fe1c94f37504270",
+      "createdAt": "2026-06-06T08:15:56.728Z"
+    },
+    {
+      "title": "ABC",
+      "description": "abcde....",
+      "category": "plumbing",
+      "raisedBy": "bebed8288cfe87bc71e37092",
+      "raisedByRole": "tenant",
+      "flatNumber": "101",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "attachments": [],
+      "status": "resolved",
+      "managerNote": "",
+      "_id": "a625394bb0116a5bf5a56edb",
+      "createdAt": "2026-06-06T08:18:58.988Z"
+    },
+    {
+      "title": "ADFS",
+      "description": "CBDCDJDF",
+      "category": "plumbing",
+      "raisedBy": "bebed8288cfe87bc71e37092",
+      "raisedByRole": "tenant",
+      "flatNumber": "101",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "attachments": [],
+      "status": "resolved",
+      "managerNote": "",
+      "_id": "2fe8653cb84b97618cf234ff",
+      "createdAt": "2026-06-06T08:58:20.231Z"
+    },
+    {
+      "title": "parking slot very dirty.",
+      "description": "pipes are leaking and smells very bad",
+      "category": "parking",
+      "raisedBy": "4f12e907425f8a62673ac653",
+      "raisedByRole": "owner",
+      "flatNumber": "102",
+      "assignedTo": "5cb5dfc29594b8b04d415055",
+      "attachments": [],
+      "status": "open",
+      "managerNote": "",
+      "_id": "b12748a13ea548b0430b2f1c",
+      "createdAt": "2026-06-08T05:13:47.605Z"
+    }
+  ],
+  "Payment": [
+    {
+      "tenantId": "bebed8288cfe87bc71e37092",
+      "ownerId": "a659b4f8612d91387e048608",
+      "flatNumber": "101",
+      "amount": 15000,
+      "month": 5,
+      "year": 2026,
+      "status": "paid",
+      "transactionId": "TXNSEED101",
+      "paidAt": "2026-05-25T10:21:03.966Z",
+      "_id": "963eca5e61529330d64ac29e",
+      "createdAt": "2026-05-25T10:21:03.966Z"
+    },
+    {
+      "tenantId": "8189a248a81593cd639093d9",
+      "ownerId": null,
+      "flatNumber": "105",
+      "amount": 16000,
+      "month": 5,
+      "year": 2026,
+      "status": "pending",
+      "transactionId": null,
+      "paidAt": null,
+      "_id": "ad4f955cca17f8dbd4ff0936",
+      "createdAt": "2026-05-25T10:21:03.974Z"
+    },
+    {
+      "tenantId": "8189a248a81593cd639093d9",
+      "ownerId": null,
+      "flatNumber": "105",
+      "amount": 16000,
+      "month": 6,
+      "year": 2026,
+      "status": "paid",
+      "transactionId": "TXN1780686662875NZO0JB",
+      "razorpayOrderId": "order_Sy4bo0z8VkZo1P",
+      "razorpayPaymentId": null,
+      "paidAt": "2026-06-05T19:11:02.875Z",
+      "_id": "07e246645a212b6e3130b990",
+      "createdAt": "2026-06-04T15:12:54.945Z"
+    },
+    {
+      "tenantId": "bebed8288cfe87bc71e37092",
+      "ownerId": "a659b4f8612d91387e048608",
+      "flatNumber": "101",
+      "amount": 15000,
+      "month": 6,
+      "year": 2026,
+      "status": "paid",
+      "transactionId": "TXN1780688164404KPHAB5",
+      "razorpayOrderId": "order_SyHLeYQGaWCbuC",
+      "razorpayPaymentId": null,
+      "paidAt": "2026-06-05T19:36:04.404Z",
+      "_id": "ed6862d36d27ea3d879073f7",
+      "createdAt": "2026-06-05T19:36:03.880Z"
+    },
+    {
+      "tenantId": "a85d8bcaea8d75f981bf985f",
+      "ownerId": null,
+      "flatNumber": "106",
+      "amount": 15600,
+      "month": 6,
+      "year": 2026,
+      "status": "paid",
+      "transactionId": "TXN17807285658413OC6UY",
+      "razorpayOrderId": "order_SyFiCrPutJPZsI",
+      "razorpayPaymentId": null,
+      "paidAt": "2026-06-06T06:49:25.841Z",
+      "_id": "7c7db1bf72eac815df5e73f0",
+      "createdAt": "2026-06-06T06:49:20.985Z"
+    }
+  ],
+  "Notice": [
+    {
+      "title": "Annual General Meeting",
+      "body": "AGM on Sunday 10 AM in the clubhouse.",
+      "postedBy": "5cb5dfc29594b8b04d415055",
+      "audience": "all",
+      "createdAt": 1779704463916,
+      "_id": "b4e8ccec6f59960810f76202"
+    },
+    {
+      "title": "Rent Reminder",
+      "body": "Monthly rent for leased flats is due by the 5th.",
+      "postedBy": "5cb5dfc29594b8b04d415055",
+      "audience": "tenants",
+      "createdAt": 1779704463923,
+      "_id": "386b28d3f08b28fa714b98a0"
+    },
+    {
+      "title": "Test",
+      "body": "Body",
+      "audience": "all",
+      "postedBy": "7ace71fae2091ebbd167784f",
+      "createdAt": 1779721382295,
+      "_id": "5ba118e96383bd8bf9d25c17"
+    },
+    {
+      "title": "event alert",
+      "body": "event starts at 10:00pm sharp",
+      "audience": "all",
+      "postedBy": "7ace71fae2091ebbd167784f",
+      "createdAt": 1779721554778,
+      "_id": "10311546dc23e10118ed7aab"
+    },
+    {
+      "title": "HOLI CELEBRATION",
+      "body": "on 03/03/2026",
+      "audience": "tenants",
+      "postedBy": "7ace71fae2091ebbd167784f",
+      "createdAt": 1780720056654,
+      "_id": "b288381df0a223cac469682e"
+    },
+    {
+      "title": "event timings",
+      "body": "event starts at 1:30pm",
+      "audience": "all",
+      "postedBy": "7ace71fae2091ebbd167784f",
+      "createdAt": 1780895414824,
+      "_id": "bd3c89d8a40e5c620ef66aba"
+    }
+  ],
+  "ParkingSlot": [
+    {
+      "slotNumber": "101A",
+      "assignedTo": "bebed8288cfe87bc71e37092",
+      "flatNumber": "101",
+      "status": "assigned",
+      "_id": "464a1b5faf303b611ba68f9c",
+      "createdAt": "2026-05-25T10:21:03.931Z"
+    },
+    {
+      "slotNumber": "102A",
+      "assignedTo": "4f12e907425f8a62673ac653",
+      "flatNumber": "102",
+      "status": "assigned",
+      "_id": "ac6abd7a7c46f4d2d8828544",
+      "createdAt": "2026-05-25T10:21:03.937Z"
+    },
+    {
+      "slotNumber": "103A",
+      "assignedTo": null,
+      "flatNumber": null,
+      "status": "available",
+      "_id": "16cad60333f4726cb9a9fb45",
+      "createdAt": "2026-05-25T10:21:03.944Z"
+    },
+    {
+      "slotNumber": "104A",
+      "assignedTo": "436eb7711891c19842116a0a",
+      "flatNumber": null,
+      "status": "assigned",
+      "_id": "9d79ed856200c1d8e8c07819",
+      "createdAt": "2026-05-25T10:21:03.950Z"
+    },
+    {
+      "slotNumber": "105A",
+      "assignedTo": "8189a248a81593cd639093d9",
+      "flatNumber": "105",
+      "status": "assigned",
+      "_id": "a3d8fd0d4fca1cf94c823af5",
+      "createdAt": "2026-05-25T10:21:03.959Z"
+    }
+  ],
+  "WaterLog": [],
+  "Message": [
+    {
+      "senderId": "8189a248a81593cd639093d9",
+      "receiverId": "7ace71fae2091ebbd167784f",
+      "content": "hello",
+      "read": false,
+      "createdAt": 1780678906782,
+      "_id": "975c981499765e9d7f2fe526"
+    },
+    {
+      "senderId": "8189a248a81593cd639093d9",
+      "receiverId": "8472e9e4cfdfe66cef5e3fee",
+      "content": "how are you",
+      "read": false,
+      "createdAt": 1780678922851,
+      "_id": "d18bd87fa9bbdd28ccc0403c"
+    },
+    {
+      "senderId": "5cb5dfc29594b8b04d415055",
+      "receiverId": "bebed8288cfe87bc71e37092",
+      "content": "hello",
+      "read": false,
+      "createdAt": 1780720374908,
+      "_id": "2a26ee16e6ea9c10caf6afb7"
+    }
+  ],
+  "Notification": [],
+  "RefreshToken": [
+    {
+      "userId": "5cb5dfc29594b8b04d415055",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Y2I1ZGZjMjk1OTRiOGIwNGQ0MTUwNTUiLCJpYXQiOjE3Nzk3MjI5NTcsImV4cCI6MTc4MDMyNzc1N30.HINW1Ip5FWiL_hYFWcjtWJMdCLkV_3AtX7-URiWal10",
+      "expiresAt": "2026-06-01T15:29:17.195Z",
+      "_id": "ee03d4fb50a127fdd7884435",
+      "createdAt": "2026-05-25T15:29:17.195Z"
+    },
+    {
+      "userId": "5cb5dfc29594b8b04d415055",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Y2I1ZGZjMjk1OTRiOGIwNGQ0MTUwNTUiLCJpYXQiOjE3Nzk3MjI5OTEsImV4cCI6MTc4MDMyNzc5MX0.l7RtkaicbrYGiLp8h2Dp3AUPoMGFvqOaf4sgbZxscQM",
+      "expiresAt": "2026-06-01T15:29:51.506Z",
+      "_id": "be6632257273d4615c7ea1e6",
+      "createdAt": "2026-05-25T15:29:51.506Z"
+    },
+    {
+      "userId": "5cb5dfc29594b8b04d415055",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Y2I1ZGZjMjk1OTRiOGIwNGQ0MTUwNTUiLCJpYXQiOjE3Nzk3MjM2NDMsImV4cCI6MTc4MDMyODQ0M30.HQqndMWvc7djBF-K_xVLBlZ4APL0RkPPmCNjf8JYPo0",
+      "expiresAt": "2026-06-01T15:40:43.119Z",
+      "_id": "27d10110362f0d1913389de9",
+      "createdAt": "2026-05-25T15:40:43.120Z"
+    },
+    {
+      "userId": "8189a248a81593cd639093d9",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI4MTg5YTI0OGE4MTU5M2NkNjM5MDkzZDkiLCJpYXQiOjE3ODA3MjE1NjEsImV4cCI6MTc4MTMyNjM2MX0.9EO6wq99kSH9IA2Ri0AS1EOc2OCaQZPSsKKOxc7Zxuc",
+      "expiresAt": "2026-06-13T04:52:41.377Z",
+      "_id": "e4ac11776f8723a52a868d55",
+      "createdAt": "2026-06-06T04:52:41.377Z"
+    },
+    {
+      "userId": "a659b4f8612d91387e048608",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhNjU5YjRmODYxMmQ5MTM4N2UwNDg2MDgiLCJpYXQiOjE3ODA3MjIzOTksImV4cCI6MTc4MTMyNzE5OX0.CgoSImtQ5ebHkuXpDXlwWNi34PRHZi2BJD0mdXzBKZ4",
+      "expiresAt": "2026-06-13T05:06:39.924Z",
+      "_id": "e9b84743e494d21de42e7315",
+      "createdAt": "2026-06-06T05:06:39.924Z"
+    },
+    {
+      "userId": "a659b4f8612d91387e048608",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhNjU5YjRmODYxMmQ5MTM4N2UwNDg2MDgiLCJpYXQiOjE3ODA3MjI0NDYsImV4cCI6MTc4MTMyNzI0Nn0.cJ23bCZBSOgd9RKsuAKcuyGWqIHAHzcwVH6QdURfBcI",
+      "expiresAt": "2026-06-13T05:07:26.534Z",
+      "_id": "515970dd2f699f4c58665121",
+      "createdAt": "2026-06-06T05:07:26.534Z"
+    },
+    {
+      "userId": "4f12e907425f8a62673ac653",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0ZjEyZTkwNzQyNWY4YTYyNjczYWM2NTMiLCJpYXQiOjE3ODA3MjI1MTksImV4cCI6MTc4MTMyNzMxOX0.W9FXyHAIq28yxE9UOgxiYcUY8UU40S0IugPi3eQO_wg",
+      "expiresAt": "2026-06-13T05:08:39.492Z",
+      "_id": "48f0d2bb757e29995b6775f6",
+      "createdAt": "2026-06-06T05:08:39.492Z"
+    },
+    {
+      "userId": "a659b4f8612d91387e048608",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhNjU5YjRmODYxMmQ5MTM4N2UwNDg2MDgiLCJpYXQiOjE3ODA3MjI3NTEsImV4cCI6MTc4MTMyNzU1MX0.vRUNhFTnq5ojtSkksU4GDAtlwX1Dio71p287X77ikrs",
+      "expiresAt": "2026-06-13T05:12:31.646Z",
+      "_id": "5e35b99cebc3db4d30d4e16c",
+      "createdAt": "2026-06-06T05:12:31.646Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA3Mjg0MDUsImV4cCI6MTc4MTMzMzIwNX0.0JDlIPJxvhgB9A_6nq10m8cnEO_JO0xj3E2dqGnPE-M",
+      "expiresAt": "2026-06-13T06:46:45.633Z",
+      "_id": "ec56224c06a2523f30324701",
+      "createdAt": "2026-06-06T06:46:45.664Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA3MzI0NjUsImV4cCI6MTc4MTMzNzI2NX0.-BVfJczi0LQhZqeoLFeEo-80nUfwF9M0zcYJnFIYsxY",
+      "expiresAt": "2026-06-13T07:54:25.002Z",
+      "_id": "bf0729608616b69c57e4a9bb",
+      "createdAt": "2026-06-06T07:54:25.002Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA3MzI2NTMsImV4cCI6MTc4MTMzNzQ1M30.tLZwkJrZRpSsVocLB4NwNtYX_rKwAko980BVD2ZHATM",
+      "expiresAt": "2026-06-13T07:57:33.293Z",
+      "_id": "0d7c3d7eef16d6e9a0f22578",
+      "createdAt": "2026-06-06T07:57:33.294Z"
+    },
+    {
+      "userId": "bebed8288cfe87bc71e37092",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJiZWJlZDgyODhjZmU4N2JjNzFlMzcwOTIiLCJpYXQiOjE3ODA3MzM5MTIsImV4cCI6MTc4MTMzODcxMn0.9-oYrdHTgF8EEm1VX0_qj7yR_Rpoy9pPh6Ijwl5_qPA",
+      "expiresAt": "2026-06-13T08:18:32.870Z",
+      "_id": "b7fc329e6f4fa8508ba88baf",
+      "createdAt": "2026-06-06T08:18:32.870Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA4OTUzMTAsImV4cCI6MTc4MTUwMDExMH0.5hNFlF3LuHIgR4xjVjXV__hOt4Az27lpSnS2X2OEnoM",
+      "expiresAt": "2026-06-15T05:08:30.648Z",
+      "_id": "17b62004bfa30616329930d9",
+      "createdAt": "2026-06-08T05:08:30.649Z"
+    },
+    {
+      "userId": "5cb5dfc29594b8b04d415055",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Y2I1ZGZjMjk1OTRiOGIwNGQ0MTUwNTUiLCJpYXQiOjE3ODA4OTU1MDksImV4cCI6MTc4MTUwMDMwOX0.iFMiFeHUvLyKYMm2Zxdzw2SY24vbCgowSNZFirwXV9E",
+      "expiresAt": "2026-06-15T05:11:49.987Z",
+      "_id": "2db482cd134deffa76a7ee8a",
+      "createdAt": "2026-06-08T05:11:49.988Z"
+    },
+    {
+      "userId": "4f12e907425f8a62673ac653",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0ZjEyZTkwNzQyNWY4YTYyNjczYWM2NTMiLCJpYXQiOjE3ODA4OTU1NjUsImV4cCI6MTc4MTUwMDM2NX0.VXhEhVHvVr-VAEZYK4mOG13ZznQD0lFahMuAWESwLAY",
+      "expiresAt": "2026-06-15T05:12:45.822Z",
+      "_id": "e2d48484a1f39f23fd6cd264",
+      "createdAt": "2026-06-08T05:12:45.822Z"
+    },
+    {
+      "userId": "bebed8288cfe87bc71e37092",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJiZWJlZDgyODhjZmU4N2JjNzFlMzcwOTIiLCJpYXQiOjE3ODA4OTU4MTgsImV4cCI6MTc4MTUwMDYxOH0.yKOLmsg5RQX_wvurMqeJC8wJ9BCOg6jr_T3ybENPUjQ",
+      "expiresAt": "2026-06-15T05:16:58.632Z",
+      "_id": "6a2cb56878b162084ae37c8f",
+      "createdAt": "2026-06-08T05:16:58.632Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA4OTg2MTksImV4cCI6MTc4MTUwMzQxOX0.CE97gCFO9qGTUTrxJigP-I1oL67j28_2YMc4Tyz7wo8",
+      "expiresAt": "2026-06-15T06:03:39.898Z",
+      "_id": "797ef1575838fd8b391494b3",
+      "createdAt": "2026-06-08T06:03:39.898Z"
+    },
+    {
+      "userId": "7ace71fae2091ebbd167784f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI3YWNlNzFmYWUyMDkxZWJiZDE2Nzc4NGYiLCJpYXQiOjE3ODA4OTg3NzYsImV4cCI6MTc4MTUwMzU3Nn0.TdRUK7zeFrRzqLhdXJla2kEENsr5dgVwMWXVnR6vGIQ",
+      "expiresAt": "2026-06-15T06:06:16.958Z",
+      "_id": "c74bbcd23953d6fd0c3cea0c",
+      "createdAt": "2026-06-08T06:06:16.958Z"
+    }
+  ],
+  "Visitor": [],
+  "Services": [
+    {
+      "name": "Plumbing Service",
+      "category": "Plumbing",
+      "description": "Request for repairing the leaking taps in bathroom.",
+      "flatNumber": "101",
+      "requestedBy": "bebed8288cfe87bc71e37092",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1779692873122,
+      "_id": "22cd0225ff30bd9427bb33d8"
+    },
+    {
+      "name": "Security Assistance",
+      "category": "Security",
+      "description": "security guard is always sleeping.",
+      "flatNumber": "102",
+      "requestedBy": "4f12e907425f8a62673ac653",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1779721449472,
+      "_id": "769700852d7ed136e05fa0f8"
+    },
+    {
+      "name": "Security Assistance",
+      "category": "Security",
+      "description": "abcde...",
+      "flatNumber": "101",
+      "requestedBy": "a659b4f8612d91387e048608",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1780733800366,
+      "_id": "a7ac3323f5d2fef57718e19b"
+    },
+    {
+      "name": "Housekeeping & Cleaning",
+      "category": "Cleaning",
+      "description": "abcde...",
+      "flatNumber": "101",
+      "requestedBy": "bebed8288cfe87bc71e37092",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1780733952030,
+      "_id": "3e82e842844d6cd9b1434931"
+    },
+    {
+      "name": "Housekeeping & Cleaning",
+      "category": "Cleaning",
+      "description": "SDFGHF",
+      "flatNumber": "101",
+      "requestedBy": "bebed8288cfe87bc71e37092",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1780736315778,
+      "_id": "705dc7df0ca66fb278d6261c"
+    },
+    {
+      "name": "Plumbing Service",
+      "category": "Plumbing",
+      "description": "pipes are leaking too much from kitchen.",
+      "flatNumber": "102",
+      "requestedBy": "4f12e907425f8a62673ac653",
+      "status": "Pending",
+      "cost": 0,
+      "createdAt": 1780895649254,
+      "_id": "2dab0c569ed093d834ef487b"
+    }
+  ]
+}
